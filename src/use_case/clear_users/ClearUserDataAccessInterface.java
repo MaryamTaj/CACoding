@@ -2,7 +2,11 @@ package use_case.clear_users;
 
 // TODO Complete me
 
+import java.util.Set;
+
 public interface ClearUserDataAccessInterface {
 
-    void delete ();
+    Set<String> clear();
+
+    boolean populated();
 }
